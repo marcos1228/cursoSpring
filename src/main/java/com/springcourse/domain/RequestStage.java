@@ -41,6 +41,8 @@ public class RequestStage implements Serializable{
 		super();
 	}
 
+	
+
 	public RequestStage(Long id, String description, Date realizationDate, RequestState state, Request request,
 			User owner) {
 		super();
@@ -51,6 +53,8 @@ public class RequestStage implements Serializable{
 		this.request = request;
 		this.owner = owner;
 	}
+
+
 
 	public Long getId() {
 		return id;
